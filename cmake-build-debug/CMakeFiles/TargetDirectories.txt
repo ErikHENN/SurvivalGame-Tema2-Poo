@@ -1,0 +1,3 @@
+C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir
+C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
