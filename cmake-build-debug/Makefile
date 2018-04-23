@@ -122,6 +122,87 @@ SurvivalGame_Tema2_Poo/fast:
 	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/build
 .PHONY : SurvivalGame_Tema2_Poo/fast
 
+Agents.obj: Agents.cpp.obj
+
+.PHONY : Agents.obj
+
+# target to build an object file
+Agents.cpp.obj:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.obj
+.PHONY : Agents.cpp.obj
+
+Agents.i: Agents.cpp.i
+
+.PHONY : Agents.i
+
+# target to preprocess a source file
+Agents.cpp.i:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.i
+.PHONY : Agents.cpp.i
+
+Agents.s: Agents.cpp.s
+
+.PHONY : Agents.s
+
+# target to generate assembly for a file
+Agents.cpp.s:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.s
+.PHONY : Agents.cpp.s
+
+Items.obj: Items.cpp.obj
+
+.PHONY : Items.obj
+
+# target to build an object file
+Items.cpp.obj:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Items.cpp.obj
+.PHONY : Items.cpp.obj
+
+Items.i: Items.cpp.i
+
+.PHONY : Items.i
+
+# target to preprocess a source file
+Items.cpp.i:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Items.cpp.i
+.PHONY : Items.cpp.i
+
+Items.s: Items.cpp.s
+
+.PHONY : Items.s
+
+# target to generate assembly for a file
+Items.cpp.s:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Items.cpp.s
+.PHONY : Items.cpp.s
+
+Map.obj: Map.cpp.obj
+
+.PHONY : Map.obj
+
+# target to build an object file
+Map.cpp.obj:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Map.cpp.obj
+.PHONY : Map.cpp.obj
+
+Map.i: Map.cpp.i
+
+.PHONY : Map.i
+
+# target to preprocess a source file
+Map.cpp.i:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Map.cpp.i
+.PHONY : Map.cpp.i
+
+Map.s: Map.cpp.s
+
+.PHONY : Map.s
+
+# target to generate assembly for a file
+Map.cpp.s:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Map.cpp.s
+.PHONY : Map.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... SurvivalGame_Tema2_Poo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Agents.obj
+	@echo ... Agents.i
+	@echo ... Agents.s
+	@echo ... Items.obj
+	@echo ... Items.i
+	@echo ... Items.s
+	@echo ... Map.obj
+	@echo ... Map.i
+	@echo ... Map.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Agents.cpp">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Agents.h">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Items.cpp">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Items.h">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Map.cpp">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Map.h">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/main.cpp">
 			<Option target="SurvivalGame_Tema2_Poo"/>
 		</Unit>
