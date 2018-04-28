@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Agents.cpp" "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.obj"
+  "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Game.cpp" "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir/Game.cpp.obj"
   "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Items.cpp" "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir/Items.cpp.obj"
   "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Map.cpp" "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir/Map.cpp.obj"
   "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/main.cpp" "C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/cmake-build-debug/CMakeFiles/SurvivalGame_Tema2_Poo.dir/main.cpp.obj"

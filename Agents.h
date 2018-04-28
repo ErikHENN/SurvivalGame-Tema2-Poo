@@ -3,19 +3,31 @@
 //
 #ifndef SURVIVALGAME_TEMA2_POO_AGENTS_H
 #define SURVIVALGAME_TEMA2_POO_AGENTS_H
+#include "Map.h"
 
 
 class Agents {
 public:
     Agents();
     Agents(int, int, int);
-    virtual void Move();
-    void Fight(Agents);
+    virtual void Move() = 0;
+    int getPositionX();
+    int getPositionY();
+    void setPosition(int, int);
+    void setID(int);
+    struct attributes {
+        int Power = Power;
+        int Dexterity = Dexterity;
+        int Defence = Defence;
+        int AgentNumber = AgentNumber;
+    };
+    attributes getAttributes();
 
+private:
     int positionX, positionY;
     int Power, Dexterity, Defence;
     int AgentNumber;
-
+    attributes a;
 };
 
 class AgentBruce: public Agents {

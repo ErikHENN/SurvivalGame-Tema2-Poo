@@ -4,23 +4,18 @@
 #include <iostream>
 #include <stdexcept>
 #include <cstdlib>
+#include "Game.h"
 #include "Agents.h"
 #include "Map.h"
 using namespace std;
 
 Map A;
-
 Agents::Agents(int Pow, int Dex, int Def) {
     this->Power = Pow;
     this->Dexterity = Dex;
     this->Defence = Def;
 
-    do {
-        this->positionX = rand() % A.nr_rows;
-        this->positionY = rand() % A.nr_cols;
-    } while(A.POZ[this->positionX][this->positionY] != 0);
-
-    this->AgentNumber = rand() % A.nr_rows * A.nr_cols + 1; //Numarul cu care vom identifica agentul pe harta, incepand de la 1 pana la nr_rows * nr_cols
+    this->AgentNumber = rand() % 100 * 100 + 1; //Numarul cu care vom identifica agentul pe harta, incepand de la 1 pana la nr_rows * nr_cols
 }
 Agents::Agents()    {
     throw invalid_argument("If you are declaring a custom Agent object please note the parameters Power, Dexterity, Defence");
@@ -47,12 +42,24 @@ void Agents::Move() {
     }
 }
 
-void Agents::Fight(Agents Enemy) {
-    float aptitudesAgent1, aptitudesAgent2;
-    aptitudesAgent1 = 0.5 * this->Power + 0.7 * this->Dexterity + 0.35 * this->Defence;
-    aptitudesAgent2 = 0.5 * Enemy.Power + 0.7 * Enemy.Dexterity + 0.35 * Enemy.Defence;
+int Agents::getPositionX() {
+    return this->positionX;
+}
 
-    if (aptitudesAgent1 < aptitudesAgent2)
-        this->AgentNumber = 0; //Scot agentul de pe harta
+int Agents::getPositionY() {
+    return this->positionY;
+}
+
+
+void Agents::setPosition(int posX, int posY) {
+    this->positionX = posX;
+    this->positionY = posY;
+}
+
+void Agents::setID(int id)  {
+    this->AgentNumber = id;
+}
+Agents::attributes Agents::getAttributes()  {
+    return this->a;
 }
 

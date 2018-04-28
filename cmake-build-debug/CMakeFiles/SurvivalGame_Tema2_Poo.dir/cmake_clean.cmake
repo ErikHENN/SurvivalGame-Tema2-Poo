@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SurvivalGame_Tema2_Poo.dir/Items.cpp.obj"
   "CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.obj"
   "CMakeFiles/SurvivalGame_Tema2_Poo.dir/Map.cpp.obj"
+  "CMakeFiles/SurvivalGame_Tema2_Poo.dir/Game.cpp.obj"
   "SurvivalGame_Tema2_Poo.pdb"
   "SurvivalGame_Tema2_Poo.exe"
   "SurvivalGame_Tema2_Poo.exe.manifest"

@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Agents.h">
 			<Option target="SurvivalGame_Tema2_Poo"/>
 		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Game.cpp">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Game.h">
+			<Option target="SurvivalGame_Tema2_Poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Erik/CLionProjects/SurvivalGame-Tema2-Poo/Items.cpp">
 			<Option target="SurvivalGame_Tema2_Poo"/>
 		</Unit>

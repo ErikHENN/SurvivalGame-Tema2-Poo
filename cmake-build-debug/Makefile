@@ -149,6 +149,33 @@ Agents.cpp.s:
 	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Agents.cpp.s
 .PHONY : Agents.cpp.s
 
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\SurvivalGame_Tema2_Poo.dir\build.make CMakeFiles/SurvivalGame_Tema2_Poo.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 Items.obj: Items.cpp.obj
 
 .PHONY : Items.obj
@@ -242,6 +269,9 @@ help:
 	@echo ... Agents.obj
 	@echo ... Agents.i
 	@echo ... Agents.s
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... Items.obj
 	@echo ... Items.i
 	@echo ... Items.s
