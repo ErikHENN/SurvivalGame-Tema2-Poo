@@ -2,6 +2,7 @@
 // Created by Erik on 4/24/2018.
 //
 #include <cstdlib>
+#include "Items.h"
 #include "Map.h"
 
 /**
@@ -40,11 +41,39 @@ Map::~Map() {
 }
 
 void Map::placeAgent (Agents& Ag)    {
-    do {
-        Ag.setPosition(rand() %  this->nr_rows, rand() % this->nr_cols);
-    } while(this->POZ[Ag.getPositionX()][Ag.getPositionY()] != 0);
+    int row = rand() %  this->nr_rows;
+    int col = rand() % this->nr_cols;
 
-    this->POZ[Ag.getPositionX()][Ag.getPositionX()] = Ag.getAttributes().AgentNumber;
+    while (this->POZ[row][col] != 0) {
+        row = rand() %  this->nr_rows;
+        col = rand() % this->nr_cols;
+    }
+    if (this->POZ[row][col] == 0) //IF-ul nu este neaparat necesar insa il adaug pentru posibil debugging
+        Ag.setPosition(row, col);
+    else
+        throw ("In functia placeAgent() ai iesit din while cu row si col nealese cum trebuie");
+
+
+
+    this->POZ[row][col] = Ag.getAttributes().AgentNumber;
+}
+
+void Map::placeItem(Items& item)   {
+    int row = rand() %  this->nr_rows;
+    int col = rand() % this->nr_cols;
+
+    while (this->POZ[row][col] != 0) {
+        row = rand() %  this->nr_rows;
+        col = rand() % this->nr_cols;
+    }
+    if (this->POZ[row][col] == 0) //IF-ul nu este neaparat necesar insa il adaug pentru posibil debugging
+        item.spawnItem(row, col);
+    else
+        throw ("In functia placeItem() ai iesit din while cu row si col nealese cum trebuie");
+
+
+
+    this->POZ[row][col] = item.getID();
 }
 
 void Map::Fight (Agents& agent1, Agents& agent2)    {
@@ -53,12 +82,12 @@ void Map::Fight (Agents& agent1, Agents& agent2)    {
     aptitudesAgent2 = 0.5 * agent2.getAttributes().Power + 0.7 * agent2.getAttributes().Dexterity + 0.35 * agent2.getAttributes().Defence;
 
     if (aptitudesAgent1 < aptitudesAgent2)
-        agent1.setID(0); //Scot agentul de pe harta
+        agent1.removeAgent(); //Scot agentul de pe harta
     else if (aptitudesAgent1 > aptitudesAgent2)
-        agent2.setID(0);
+        agent2.removeAgent();
     else    {
-        agent1.setID(0);
-        agent2.setID(0);
+        agent1.removeAgent();
+        agent2.removeAgent();
     }
 
 }

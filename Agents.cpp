@@ -63,3 +63,6 @@ Agents::attributes Agents::getAttributes()  {
     return this->a;
 }
 
+void Agents::removeAgent() {
+    setID(0);
+}

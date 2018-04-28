@@ -10,7 +10,11 @@ class Items {
 public:
     Items();
     Items(string, int, int, int);
-
+    void spawnItem(int, int);
+    int getPositionX();
+    int getPositionY();
+    int getID();
+private:
     string itemName;
     int itemID = 0;
     int BonusPow, BonusDex, BonusDef;

@@ -7,6 +7,7 @@
 
 #include <vector>
 #include "Agents.h"
+#include "Items.h"
 using namespace std;
 
 class Map {
@@ -15,6 +16,7 @@ public:
     Map(int, int);
     ~Map();
     void placeAgent(Agents&);
+    void placeItem(Items&);
     void Fight (Agents&, Agents&);
 
     int **POZ;

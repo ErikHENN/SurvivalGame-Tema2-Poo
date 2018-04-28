@@ -22,6 +22,7 @@ public:
         int AgentNumber = AgentNumber;
     };
     attributes getAttributes();
+    void removeAgent();
 
 private:
     int positionX, positionY;
