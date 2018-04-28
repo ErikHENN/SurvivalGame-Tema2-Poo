@@ -21,24 +21,35 @@ Agents::Agents()    {
     throw invalid_argument("If you are declaring a custom Agent object please note the parameters Power, Dexterity, Defence");
 }
 /**
+ * Daca nu am item sau alt agent in pozitiile din imediata vecinatate ma mut random in stanga sau in dreapta (in caz ca nu ies din harta)
  * @direction reprezinta directa si avem urmatoarele codari: 1 = sus ; 2 = stanga ; 3 = jos ; 4 = dreapta
  * Itemele le voi coda pe harta cu valoare < 0, pozitia libera cu 0, pozitiile ocupate de agenti cu numere > 0
  */
 void Agents::Move() {
-    int direction = rand() % 4 + 1; //Generez numar random intre 1 si 4 ce reprezinta directia
-    switch (direction)  {
-        case 1:
-            if (this->positionX - 1 >= 0)
-                this->positionX = this->positionX - 1;
-        case 2:
-            if (this->positionY - 1 >= 0)
-                this->positionY = this->positionY - 1;
-        case 3:
-            if (this->positionX + 1 <= A.nr_rows)
-                this->positionX = this->positionX + 1;
-        case 4:
-            if (this->positionY + 1 >= 0)
-                this->positionY = this->positionY + 1;
+    if (this->positionX -1 != 0)
+        this->positionX = this->positionX - 1; //Se duce in sus
+    else if (this->positionY -1 != 0)
+        this->positionY = this->positionY - 1; //Se duce in sus
+    else if (this->positionX + 1 != 0)
+        this->positionX = this->positionX + 1;
+    else if (this->positionY + 1 != 0)
+        this->positionY = this->positionY + 1;
+    else {
+        int direction = rand() % 4 + 1; //Generez numar random intre 1 si 4 ce reprezinta directia
+        switch (direction) {
+            case 1:
+                if (this->positionX - 1 >= 0)
+                    this->positionX = this->positionX - 1;
+            case 2:
+                if (this->positionY - 1 >= 0)
+                    this->positionY = this->positionY - 1;
+            case 3:
+                if (this->positionX + 1 <= A.nr_rows)
+                    this->positionX = this->positionX + 1;
+            case 4:
+                if (this->positionY + 1 >= 0)
+                    this->positionY = this->positionY + 1;
+        }
     }
 }
 
@@ -65,4 +76,10 @@ Agents::attributes Agents::getAttributes()  {
 
 void Agents::removeAgent() {
     setID(0);
+}
+
+void Agents::collectItem(Items& item) {
+    this->Power = item.getAttributes().BonusPow;
+    this->Dexterity = item.getAttributes().BonusDex;
+    this->Defence = item.getAttributes().BonusDef;
 }

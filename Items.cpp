@@ -32,3 +32,7 @@ int Items::getPositionY() {
 int Items::getID() {
     return this->itemID;
 }
+
+Items::attributes Items::getAttributes() {
+    return this->a;
+}

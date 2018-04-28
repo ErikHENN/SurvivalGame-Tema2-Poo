@@ -3,8 +3,8 @@
 //
 #ifndef SURVIVALGAME_TEMA2_POO_AGENTS_H
 #define SURVIVALGAME_TEMA2_POO_AGENTS_H
-#include "Map.h"
 
+#include "Items.h"
 
 class Agents {
 public:
@@ -23,6 +23,7 @@ public:
     };
     attributes getAttributes();
     void removeAgent();
+    void collectItem(Items&);
 
 private:
     int positionX, positionY;
@@ -54,7 +55,7 @@ public:
 class AgentBond: public Agents  {
 public:
     AgentBond() : Agents(Power, Dexterity, Defence) { }
-    void Move();
+    void Move() {};
 
     int Power = 20;
     int Dexterity = 100;

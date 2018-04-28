@@ -14,11 +14,20 @@ public:
     int getPositionX();
     int getPositionY();
     int getID();
+    struct attributes {
+        int BonusPow = BonusPow;
+        int BonusDex = BonusDex;
+        int BonusDef = BonusDef;
+        int itemID = itemID;
+        string itemName = itemName;
+    };
+    attributes getAttributes();
 private:
     string itemName;
     int itemID = 0;
     int BonusPow, BonusDex, BonusDef;
     int spawnX, spawnY;
+    attributes a;
 };
 
 class Sword : public Items  {
