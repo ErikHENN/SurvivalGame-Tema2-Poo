@@ -14,12 +14,10 @@
     <list default="true" id="779ced0b-c79f-4f2f-b337-8d3adef6ff16" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Agents.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Agents.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Agents.h" beforeDir="false" afterPath="$PROJECT_DIR$/Agents.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Items.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Items.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Items.h" beforeDir="false" afterPath="$PROJECT_DIR$/Items.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Map.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -47,8 +45,8 @@
       <file leaf-file-name="Game.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="393">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -59,8 +57,11 @@
       <file leaf-file-name="Game.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-end-line="18" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#116#133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +69,8 @@
       <file leaf-file-name="Items.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Items.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="17">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -80,8 +81,8 @@
       <file leaf-file-name="Items.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Items.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#39#56#0" expanded="true" />
               </folding>
@@ -92,8 +93,8 @@
       <file leaf-file-name="Agents.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Agents.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="471">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -101,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Agents.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Agents.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Agents.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="258">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#120#138#0" expanded="true" />
               </folding>
@@ -116,8 +117,8 @@
       <file leaf-file-name="Map.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="158" column="47" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
+            <state relative-caret-position="4063">
+              <caret line="239" column="10" lean-forward="true" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -128,8 +129,8 @@
       <file leaf-file-name="Map.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#115#132#0" expanded="true" />
               </folding>
@@ -141,7 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>A</find>
       <find>this-&gt;A</find>
       <find>agents</find>
       <find>FIGHT (</find>
@@ -170,6 +170,8 @@
       <find>nr_of_agents</find>
       <find>getagentindex</find>
       <find>removea</find>
+      <find>AgentNumber</find>
+      <find>AgentNumber:=</find>
     </findStrings>
     <replaceStrings>
       <replace>POZ</replace>
@@ -193,14 +195,14 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Game.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Items.h" />
-        <option value="$PROJECT_DIR$/Items.cpp" />
-        <option value="$PROJECT_DIR$/Agents.cpp" />
-        <option value="$PROJECT_DIR$/Game.cpp" />
-        <option value="$PROJECT_DIR$/Map.cpp" />
-        <option value="$PROJECT_DIR$/Map.h" />
         <option value="$PROJECT_DIR$/Agents.h" />
+        <option value="$PROJECT_DIR$/Map.h" />
+        <option value="$PROJECT_DIR$/Map.cpp" />
+        <option value="$PROJECT_DIR$/Items.cpp" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
+        <option value="$PROJECT_DIR$/Agents.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -225,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +284,8 @@
       <workItem from="1524959679030" duration="3188000" />
       <workItem from="1524963231861" duration="7000" />
       <workItem from="1524988759184" duration="15189000" />
-      <workItem from="1525004728526" duration="29000" />
+      <workItem from="1525004728526" duration="265000" />
+      <workItem from="1525021702402" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="Definite in mare parte clasele Agents, Items, Map.">
       <created>1524525853721</created>
@@ -319,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524962878585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalizat">
+      <created>1525004841768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525004841768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71454000" />
+    <option name="totallyTimeSpent" value="74346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,11 +354,11 @@
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32943678" />
       <window_info anchor="bottom" auto_hide="true" x="-276" y="464" width="1920" height="307" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" type="FLOATING" weight="0.33442265" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33006537" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33006537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.33442265" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" visible="true" weight="0.33442265" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -372,7 +382,8 @@
     <MESSAGE value="Functii pentru generarea hartii create" />
     <MESSAGE value="Am creat modul de generare a rundei" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Finalizat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizat" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -803,27 +814,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Map.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#115#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Agents.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#120#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-end-line="18" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#116#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Items.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4063">
+          <caret line="239" column="10" lean-forward="true" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Agents.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
@@ -832,60 +886,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Items.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#39#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Agents.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#115#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="158" column="47" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Agents.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
