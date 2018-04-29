@@ -8,7 +8,7 @@
 using namespace std;
 
 void Game::run()    {
-    int map_rows = 10, map_cols = 10, nr_agents = 7, nr_items = 3;
+    int map_rows = 4, map_cols = 4, nr_agents = 7, nr_items = 3;
     cout << "Dati configuratiile hartii, completand informatiile de mai jos: \n";
     /*
     cout << "Numar de linii: "; cin >> map_rows;
@@ -32,10 +32,12 @@ void Game::run()    {
     int nrRunda = 1;
 
     cout << A.getTotalNrOfAgents();
-    while (A.getTotalNrOfAgents() > 0)  {
+    while (A.getTotalNrOfAgents() > 1)  {
         cout << "==RUNDA " << nrRunda << "==\n";
         A.playRound();
         nrRunda++;
 
     }
+    cout << "\nHarta la SFARSITUL jocului: \n";
+    A.display();
 }

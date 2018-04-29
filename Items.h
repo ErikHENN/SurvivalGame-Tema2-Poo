@@ -19,7 +19,7 @@ public:
     int getItemBonusDex();
     int getItemBonusDef();
     void setItemID();
-private:
+public:
     int itemID = 0;
     int BonusPow, BonusDex, BonusDef;
     int spawnX, spawnY;
@@ -27,28 +27,23 @@ private:
 
 class Sword : public Items  {
 public:
-    Sword() : Items(BonusPow, BonusDex, BonusDef) { }
+    Sword() : Items(50, -10, 5) { }
 
     int itemID = -1;
-    int BonusPow = 50;
-    int BonusDex = -10;
-    int BonusDef = 5;
 };
 
 class Armor : public Items  {
 public:
-    Armor() : Items(BonusPow, BonusDex, BonusDef) {}
+    Armor() : Items(0,-50, 85) {}
 
     int itemID = -2;
-    int BonusPow = 0, BonusDex = -50, BonusDef = 85;
 };
 
 class Shoes : public Items  {
 public:
-    Shoes() : Items(BonusPow, BonusDex, BonusDef) {}
+    Shoes() : Items(0, 70, 5) {}
 
     int itemID = -3;
-    int BonusPow = 0, BonusDex = 70, BonusDef = 5;
 };
 
 

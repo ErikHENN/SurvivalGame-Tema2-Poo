@@ -16,7 +16,8 @@ Items::Items(int BonusPow, int BonusDex, int BonusDef)  {
 
 }
 void Items::setItemID() {
-    this->itemID = -1 * this->spawnX * this->spawnY * 7 - 1;
+    this->itemID = -1 * (this->spawnX + 1) * (this->spawnY + 1) * 7 - 1;
+    //this->itemID = itemID;
 }
 void Items::spawnItem(int posX, int posY)   {
     this->spawnX = posX;
