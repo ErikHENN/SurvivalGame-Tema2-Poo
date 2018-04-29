@@ -2,6 +2,7 @@
 // Created by Erik on 4/23/2018.
 //
 #include <string>
+#include <ctime>
 using namespace std;
 #ifndef SURVIVALGAME_TEMA2_POO_ITEMS_H
 #define SURVIVALGAME_TEMA2_POO_ITEMS_H
@@ -9,50 +10,43 @@ using namespace std;
 class Items {
 public:
     Items();
-    Items(string, int, int, int);
+    Items(int, int, int);
     void spawnItem(int, int);
     int getPositionX();
     int getPositionY();
     int getID();
-    struct attributes {
-        int BonusPow = BonusPow;
-        int BonusDex = BonusDex;
-        int BonusDef = BonusDef;
-        int itemID = itemID;
-        string itemName = itemName;
-    };
-    attributes getAttributes();
+    int getItemBonusPow();
+    int getItemBonusDex();
+    int getItemBonusDef();
+    void setItemID();
 private:
-    string itemName;
     int itemID = 0;
     int BonusPow, BonusDex, BonusDef;
     int spawnX, spawnY;
-    attributes a;
 };
 
 class Sword : public Items  {
 public:
-    Sword() : Items(itemName, BonusPow, BonusDex, BonusDef) {}
+    Sword() : Items(BonusPow, BonusDex, BonusDef) { }
 
-    string itemName = "Diamond Sword";
     int itemID = -1;
-    int BonusPow = 50, BonusDex = -10, BonusDef = 5;
+    int BonusPow = 50;
+    int BonusDex = -10;
+    int BonusDef = 5;
 };
 
 class Armor : public Items  {
 public:
-    Armor() : Items(itemName, BonusPow, BonusDex, BonusDef) {}
+    Armor() : Items(BonusPow, BonusDex, BonusDef) {}
 
-    string itemName = "Diamond Suit";
     int itemID = -2;
     int BonusPow = 0, BonusDex = -50, BonusDef = 85;
 };
 
 class Shoes : public Items  {
 public:
-    Shoes() : Items(itemName, BonusPow, BonusDex, BonusDef) {}
+    Shoes() : Items(BonusPow, BonusDex, BonusDef) {}
 
-    string itemName = "Flying Shoes";
     int itemID = -3;
     int BonusPow = 0, BonusDex = 70, BonusDef = 5;
 };

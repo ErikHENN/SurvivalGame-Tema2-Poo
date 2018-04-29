@@ -5,15 +5,13 @@
 #ifndef SURVIVALGAME_TEMA2_POO_GAME_H
 #define SURVIVALGAME_TEMA2_POO_GAME_H
 #include <vector>
+#include <ctime>
 #include "Map.h"
 
 class Game {
 public:
-    void run(int map_rows, int map_cols, int nr_agents, int nr_items);
+    void run();
 
-
-    friend class Agents;
-    Map A;
 };
 
 

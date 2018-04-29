@@ -1,24 +1,27 @@
 //
 // Created by Erik on 4/23/2018.
 //
-#include <string>
+#include <iostream>
 #include "Items.h"
-#include "Map.h"
 using namespace std;
 
-
-Items::Items(string name, int Pow, int Dex, int Def)  {
-    this->BonusPow = Pow;
-    this->BonusDex = Dex;
-    this->BonusDef = Def;
-
-    if (this->itemID == 0)
-        this->itemID = -1 * (rand() % 50 * 50 + 1); //Numarul cu care vom identifica agentul pe harta, incepand de la -1 pana la - (nr_rows * nr_cols) . Se va defini doar pentru iteme custom
+Items::Items()  {
+    throw invalid_argument("If you are declaring a custom Item object please note the parameters Name, Power, Dexterity, Defence");
 }
+Items::Items(int BonusPow, int BonusDex, int BonusDef)  {
+    this->BonusPow = BonusPow;
+    this->BonusDex = BonusDex;
+    this->BonusDef = BonusDef;
+    this->itemID = itemID;
 
+}
+void Items::setItemID() {
+    this->itemID = -1 * this->spawnX * this->spawnY * 7 - 1;
+}
 void Items::spawnItem(int posX, int posY)   {
     this->spawnX = posX;
     this->spawnY = posY;
+
 }
 
 int Items::getPositionX() {
@@ -33,6 +36,15 @@ int Items::getID() {
     return this->itemID;
 }
 
-Items::attributes Items::getAttributes() {
-    return this->a;
+int Items::getItemBonusPow() {
+    return this->BonusPow;
 }
+
+int Items::getItemBonusDex() {
+    return this->BonusDex;
+}
+
+int Items::getItemBonusDef() {
+    return this->BonusDef;
+}
+

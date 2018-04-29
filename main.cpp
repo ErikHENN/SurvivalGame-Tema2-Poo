@@ -1,10 +1,18 @@
 #include <iostream>
-#include "Map.h"
-#include "Agents.h"
+#include <ctime>
+#include "Game.h"
 using namespace std;
+
 int main() {
-    AgentBruce test;
-    Map A;
-    cout << test.Power;
+    srand(time(NULL));
+    Game g;
+    //AgentBruce b;
+    //Sword s;
+    //AgentBruce bruce;
+    /*AgentBruce b;
+    cout << b.Power;
+    Sword s;
+    cout << s.BonusPow;*/
+    g.run();
     return 0;
 }

@@ -5,6 +5,9 @@
 #define SURVIVALGAME_TEMA2_POO_AGENTS_H
 
 #include "Items.h"
+#include <ctime>
+#include <cstdlib>
+#include <random>
 
 class Agents {
 public:
@@ -15,47 +18,47 @@ public:
     int getPositionY();
     void setPosition(int, int);
     void setID(int);
-    struct attributes {
-        int Power = Power;
-        int Dexterity = Dexterity;
-        int Defence = Defence;
-        int AgentNumber = AgentNumber;
-    };
-    attributes getAttributes();
     void removeAgent();
     void collectItem(Items&);
+    void setAgentNumber();
 
-private:
+    int getAgentNumber();
+    int getAgentPower();
+    int getAgentDexterity();
+    int getAgentDefence();
+protected:
     int positionX, positionY;
+private:
     int Power, Dexterity, Defence;
-    int AgentNumber;
-    attributes a;
+    int AgentNumber = 0;
 };
 
 class AgentBruce: public Agents {
 public:
     AgentBruce() : Agents(Power, Dexterity, Defence) { }
-    void Move() {};
+    void Move();
 
     int Power = 100;
     int Dexterity = 40;
     int Defence = 10;
+
 };
 
 class AgentKevin: public Agents {
 public:
     AgentKevin() : Agents(Power, Dexterity, Defence) { }
-    void Move() {};
+    void Move();
 
     int Power = 50;
     int Dexterity = 1;
     int Defence = 100;
+
 };
 
 class AgentBond: public Agents  {
 public:
     AgentBond() : Agents(Power, Dexterity, Defence) { }
-    void Move() {};
+    void Move();
 
     int Power = 20;
     int Dexterity = 100;
